@@ -6,10 +6,6 @@ html, body {
 	background-color: #080808;
 }
 
-body {
-	padding: 4em;
-}
-
 table, tr, td, th {
 	border: 2px solid #F8F8F8;
 	border-collapse: collapse;
