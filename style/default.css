@@ -24,7 +24,7 @@ td, th, tr{
 	font-size: calc(90vw / 7 / 2);
 }
 
-td:hover {
+.highlight_kana:hover {
 	color: #080808;
 	background-color: #F8F8F8;
 }
