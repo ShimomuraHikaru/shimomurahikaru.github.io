@@ -4,6 +4,13 @@
 
 html, body {
 	background-color: #080808;
+	height: 100%;
+}
+
+table {
+	margin: auto;
+	width: 90vw;
+	height: inherit;
 }
 
 table, tr, td, th {
@@ -11,11 +18,18 @@ table, tr, td, th {
 	border-collapse: collapse;
 }
 
-td, th {
-		text-align: center;
-		padding: 1em 0;
+td, th, tr{
+	text-align: center;
+	height: inherit;
+	font-size: calc(90vw / 7 / 2);
+}
+
+th {
+	font-size: calc(90vw / 7 / 3);
 }
 
 .kana_flex {
-		display: grid;
+	/*display: grid;
+	margin: auto;*/
+	height: calc(90vw / 7 * 12);
 }
