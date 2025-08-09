@@ -12,5 +12,10 @@ table, tr, td, th {
 }
 
 td, th {
-	padding: 1em 2em;
+		text-align: center;
+		padding: 1em 0;
+}
+
+.kana_flex {
+		display: grid;
 }
