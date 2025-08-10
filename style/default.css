@@ -1,5 +1,6 @@
 * {
 	color: #F8F8F8;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -20,8 +21,8 @@ table, tr, td, th {
 
 td, th, tr{
 	text-align: center;
-	height: inherit;
-	font-size: calc(90vw / 7 / 2);
+	height: calc(90vh / 6);
+	font-size: calc(90vw / 6 / 2);
 }
 
 .highlight_kana:hover {
@@ -30,11 +31,5 @@ td, th, tr{
 }
 
 th {
-	font-size: calc(90vw / 7 / 3);
-}
-
-.kana_flex {
-	/*display: grid;
-	margin: auto;*/
-	height: calc(90vw / 7 * 12);
+	font-size: calc(90vw / 6 / 3);
 }
