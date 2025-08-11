@@ -1,59 +1,49 @@
-
-sound_a = new Audio("../../res/audio/coin.ogg");
-sound_i = new Audio("../../res/audio/coin.ogg");
-sound_u = new Audio("../../res/audio/coin.ogg");
-sound_e = new Audio("../../res/audio/coin.ogg");
-sound_o = new Audio("../../res/audio/coin.ogg");
-
-sound_ka = new Audio("../../res/audio/coin.ogg");
-sound_ki = new Audio("../../res/audio/coin.ogg");
-sound_ku = new Audio("../../res/audio/coin.ogg");
-sound_ke = new Audio("../../res/audio/coin.ogg");
-sound_ko = new Audio("../../res/audio/coin.ogg");
-
-sound_sa = new Audio("../../res/audio/coin.ogg");
-sound_shi = new Audio("../../res/audio/coin.ogg");
-sound_su = new Audio("../../res/audio/coin.ogg");
-sound_se = new Audio("../../res/audio/coin.ogg");
-sound_so = new Audio("../../res/audio/coin.ogg");
-
-sound_ta = new Audio("../../res/audio/coin.ogg");
-sound_chi = new Audio("../../res/audio/coin.ogg");
-sound_tsu = new Audio("../../res/audio/coin.ogg");
-sound_te = new Audio("../../res/audio/coin.ogg");
-sound_to = new Audio("../../res/audio/coin.ogg");
-
-sound_ma = new Audio("../../res/audio/coin.ogg");
-sound_mi = new Audio("../../res/audio/coin.ogg");
-sound_mu = new Audio("../../res/audio/coin.ogg");
-sound_me = new Audio("../../res/audio/coin.ogg");
-sound_mo = new Audio("../../res/audio/coin.ogg");
-
-sound_ha = new Audio("../../res/audio/coin.ogg");
-sound_hi = new Audio("../../res/audio/coin.ogg");
-sound_fu = new Audio("../../res/audio/coin.ogg");
-sound_he = new Audio("../../res/audio/coin.ogg");
-sound_ho = new Audio("../../res/audio/coin.ogg");
-
-sound_na = new Audio("../../res/audio/coin.ogg");
-sound_ni = new Audio("../../res/audio/coin.ogg");
-sound_nu = new Audio("../../res/audio/coin.ogg");
-sound_ne = new Audio("../../res/audio/coin.ogg");
-sound_no = new Audio("../../res/audio/coin.ogg");
-
-sound_ya = new Audio("../../res/audio/coin.ogg");
-sound_yu = new Audio("../../res/audio/coin.ogg");
-sound_yo = new Audio("../../res/audio/coin.ogg");
-
-sound_ra = new Audio("../../res/audio/coin.ogg");
-sound_ri = new Audio("../../res/audio/coin.ogg");
-sound_ru = new Audio("../../res/audio/coin.ogg");
-sound_re = new Audio("../../res/audio/coin.ogg");
-sound_ro = new Audio("../../res/audio/coin.ogg");
-
-sound_wa = new Audio("../../res/audio/coin.ogg");
-sound_wo = new Audio("../../res/audio/coin.ogg");
-sound_n = new Audio("../../res/audio/coin.ogg");
+sound_a = new Audio("/res/audio/Gojuuon-a.wav")
+sound_i = new Audio("/res/audio/Gojuuon-i.wav")
+sound_u = new Audio("/res/audio/Gojuuon-u.wav")
+sound_e = new Audio("/res/audio/Gojuuon-e.wav")
+sound_o = new Audio("/res/audio/Gojuuon-o.wav")
+sound_ka = new Audio("/res/audio/Gojuuon-ka.wav")
+sound_ki = new Audio("/res/audio/Gojuuon-ki.wav")
+sound_ku = new Audio("/res/audio/Gojuuon-ku.wav")
+sound_ke = new Audio("/res/audio/Gojuuon-ke.wav")
+sound_ko = new Audio("/res/audio/Gojuuon-ko.wav")
+sound_sa = new Audio("/res/audio/Gojuuon-sa.wav")
+sound_shi = new Audio("/res/audio/Gojuuon-shi.wav")
+sound_su = new Audio("/res/audio/Gojuuon-su.wav")
+sound_se = new Audio("/res/audio/Gojuuon-se.wav")
+sound_so = new Audio("/res/audio/Gojuuon-so.wav")
+sound_ta = new Audio("/res/audio/Gojuuon-ta.wav")
+sound_chi = new Audio("/res/audio/Gojuuon-chi.wav")
+sound_tsu = new Audio("/res/audio/Gojuuon-tsu.wav")
+sound_te = new Audio("/res/audio/Gojuuon-te.wav")
+sound_to = new Audio("/res/audio/Gojuuon-to.wav")
+sound_ma = new Audio("/res/audio/Gojuuon-ma.wav")
+sound_mi = new Audio("/res/audio/Gojuuon-mi.wav")
+sound_mu = new Audio("/res/audio/Gojuuon-mu.wav")
+sound_me = new Audio("/res/audio/Gojuuon-me.wav")
+sound_mo = new Audio("/res/audio/Gojuuon-mo.wav")
+sound_ha = new Audio("/res/audio/Gojuuon-ha.wav")
+sound_hi = new Audio("/res/audio/Gojuuon-hi.wav")
+sound_fu = new Audio("/res/audio/Gojuuon-fu.wav")
+sound_he = new Audio("/res/audio/Gojuuon-he.wav")
+sound_ho = new Audio("/res/audio/Gojuuon-ho.wav")
+sound_na = new Audio("/res/audio/Gojuuon-na.wav")
+sound_ni = new Audio("/res/audio/Gojuuon-ni.wav")
+sound_nu = new Audio("/res/audio/Gojuuon-nu.wav")
+sound_ne = new Audio("/res/audio/Gojuuon-ne.wav")
+sound_no = new Audio("/res/audio/Gojuuon-no.wav")
+sound_ya = new Audio("/res/audio/Gojuuon-ya.wav")
+sound_yu = new Audio("/res/audio/Gojuuon-yu.wav")
+sound_yo = new Audio("/res/audio/Gojuuon-yo.wav")
+sound_ra = new Audio("/res/audio/Gojuuon-ra.wav")
+sound_ri = new Audio("/res/audio/Gojuuon-ri.wav")
+sound_ru = new Audio("/res/audio/Gojuuon-ru.wav")
+sound_re = new Audio("/res/audio/Gojuuon-re.wav")
+sound_ro = new Audio("/res/audio/Gojuuon-ro.wav")
+sound_wa = new Audio("/res/audio/Gojuuon-wa.wav")
+sound_wo = new Audio("/res/audio/Gojuuon-wo.wav")
+sound_n = new Audio("/res/audio/Gojuuon-n.wav")
 
 function play_kana_sound(src_sound) {
 	src_sound.play();
