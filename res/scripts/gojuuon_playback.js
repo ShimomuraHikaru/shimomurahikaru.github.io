@@ -45,6 +45,33 @@ sound_wa = new Audio("/res/audio/Gojuuon-wa.wav")
 sound_wo = new Audio("/res/audio/Gojuuon-wo.wav")
 sound_n = new Audio("/res/audio/Gojuuon-n.wav")
 
+sound_ga = new Audio("/res/audio/Gojuuon2-ga.wav")
+sound_gi = new Audio("/res/audio/Gojuuon2-gi.wav")
+sound_gu = new Audio("/res/audio/Gojuuon2-gu.wav")
+sound_ge = new Audio("/res/audio/Gojuuon2-ge.wav")
+sound_go = new Audio("/res/audio/Gojuuon2-go.wav")
+sound_za = new Audio("/res/audio/Gojuuon2-za.wav")
+sound_ji = new Audio("/res/audio/Gojuuon2-ji.wav")
+sound_zu = new Audio("/res/audio/Gojuuon2-zu.wav")
+sound_ze = new Audio("/res/audio/Gojuuon2-ze.wav")
+sound_zo = new Audio("/res/audio/Gojuuon2-zo.wav")
+sound_da = new Audio("/res/audio/Gojuuon2-da.wav")
+sound_di = new Audio("/res/audio/Gojuuon2-di.wav")
+sound_dzu = new Audio("/res/audio/Gojuuon2-dzu.wav")
+sound_de = new Audio("/res/audio/Gojuuon2-de.wav")
+sound_do = new Audio("/res/audio/Gojuuon2-do.wav")
+sound_ba = new Audio("/res/audio/Gojuuon2-ba.wav")
+sound_bi = new Audio("/res/audio/Gojuuon2-bi.wav")
+sound_bu = new Audio("/res/audio/Gojuuon2-bu.wav")
+sound_be = new Audio("/res/audio/Gojuuon2-be.wav")
+sound_bo = new Audio("/res/audio/Gojuuon2-bo.wav")
+sound_pa = new Audio("/res/audio/Gojuuon2-pa.wav")
+sound_pi = new Audio("/res/audio/Gojuuon2-pi.wav")
+sound_pu = new Audio("/res/audio/Gojuuon2-pu.wav")
+sound_pe = new Audio("/res/audio/Gojuuon2-pe.wav")
+sound_po = new Audio("/res/audio/Gojuuon2-po.wav")
+
+
 function play_kana_sound(src_sound) {
 	src_sound.play();
 	//alert(src_sound.src);
