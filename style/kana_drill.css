@@ -16,16 +16,16 @@
 }
 
 #root ul {
+	display: flex;
 	list-style-type: none;
 	list-style-position: inside;
-	padding: 0px;
 	margin: auto;
-	width: 30vw;
+	width: 70vw;
 }
 
 #root li {
 	margin: 8px auto;
-	width: 100%;
+	width: 24%;
 	border: 2px solid #F8F8F8;
 	padding: 1em;
 }
@@ -33,4 +33,27 @@
 #root li:hover {
 	color: #080808;
 	background-color: #F8F8F8;
+}
+
+span {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+#perc {
+	font-size: 2em;
+}
+
+#reset_button {
+	border: 2px solid #F8F8F8;
+	width: 50%;
+	height: 4em;
+	margin: 8px auto;
+	line-height: 4em;
+}
+
+#reset_button:hover {
+	background-color: #F8F8F8;
+	color: #080808;
 }
