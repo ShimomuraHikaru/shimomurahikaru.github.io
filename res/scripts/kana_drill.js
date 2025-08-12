@@ -238,6 +238,7 @@ function initialize() {
 }
 
 function initialize_drill() {
+	let greeting = document.createElement("p");
 	let mode_selection = document.getElementById("kana_mode_select");
 	let amount_selection = document.getElementById("amount_select");
 	if(romaji_list.length != hiragana_list.length || 
@@ -275,6 +276,9 @@ function initialize_drill() {
 	let symbol = document.createElement("div");
 	symbol.id = "kana_symbol"
 
+	greeting.innerHTML = "Click on one of the choices below the character to enter your answer."
+
+	root_element.append(greeting);
 	root_element.append(attempts_indicator);
 	root_element.append(attempts_correct);
 	root_element.append(symbol);

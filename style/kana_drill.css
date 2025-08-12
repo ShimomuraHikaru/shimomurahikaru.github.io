@@ -1,4 +1,4 @@
-#root *{
+#root {
 	text-align: center;
 	background-color: #080808;
 }
@@ -12,20 +12,25 @@
 }
 
 #root form * {
+	background-color: #080808;
 	margin: 8px;
 }
 
 #root ul {
+	padding: 0;
+	margin: auto;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	list-style-type: none;
 	list-style-position: inside;
-	margin: auto;
 	width: 70vw;
 }
 
 #root li {
-	margin: 8px auto;
-	width: 24%;
+	align-content: center;
+	width: 20%;
+	margin: 8px 4px;
 	border: 2px solid #F8F8F8;
 	padding: 1em;
 }
@@ -38,7 +43,6 @@
 span {
 	display: block;
 	margin: auto;
-	text-align: center;
 }
 
 #perc {
