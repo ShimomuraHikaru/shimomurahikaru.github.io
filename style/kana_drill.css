@@ -25,13 +25,12 @@
 	align-content: center;
 	list-style-type: none;
 	list-style-position: inside;
-	width: 70vw;
 }
 
 #root li {
 	text-align: center;
 	align-content: center;
-	width: 20%;
+	width: 70vw;
 	margin: 8px 4px;
 	border: 2px solid #F8F8F8;
 	padding: 1em;
