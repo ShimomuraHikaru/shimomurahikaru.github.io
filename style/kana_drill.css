@@ -63,3 +63,16 @@ span {
 	background-color: #F8F8F8;
 	color: #080808;
 }
+
+@media screen and (orientation: portrait) {
+	#root #kana_symbol {
+		width: 70vw;
+		height: 70vw;
+		font-size: 50vw;
+	}
+
+	#root ul {
+		flex-direction: column;
+		width: 70vw;
+	}
+}
